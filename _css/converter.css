@@ -1,0 +1,97 @@
+/* Importação de paleta de cores e fontes */
+@import url(./paleta.css);
+@import url(./fonts/);
+
+* {
+    /* Remove bordas e espaçamentos padrões dos elementos */
+    border: none;
+    padding: none;
+}
+
+body {
+    /* Define altura total da tela e configurações de estilo principais */
+    height: 100vh;
+    background-color: var(--corBack); /* Cor de fundo da tela */
+    font-family: var(--title); /* Fonte principal definida */
+    color: var(--corButton); /* Cor principal do texto */
+}
+
+p {
+    /* Define fonte específica para parágrafos */
+    font-family: Mulish-Light;
+}
+
+main {
+    /* Configura o layout da área principal */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    place-content: center;
+    overflow: hidden;
+}
+
+form {
+    /* Estilização do formulário */
+    display: flex;
+    background-color: var(--corFundo);
+    flex-direction: column;
+    height: 80%;
+    width: 30%;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+.box-title {
+    /* Centraliza o título */
+    display: flex;
+    place-content: center;
+    align-items: center;
+    height: 20%;
+    width: 100%;
+}
+
+.title {
+    /* Estilo do título */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    place-content: center;
+}
+
+.amount-box {
+    /* Centraliza e organiza a seção amount-box */
+    display: flex;
+    align-items: center;
+    place-content: center;
+    flex-direction: column;
+    height: 20%;
+    width: 100%;
+}
+
+.content {
+    /* Define largura do conteúdo */
+    width: 90%;
+}
+
+input {
+    /* Estilo dos campos de entrada */
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: var(--inputColor);
+    color: var(--darkFont);
+}
+
+input::placeholder {
+    /* Estilo do texto de placeholder dos inputs */
+    color: var(--darkFont);
+}
+
+.amount-box input:focus {
+    /* Estilo de foco dos campos na seção amount-box */
+    border-bottom: 3px solid 
+}
