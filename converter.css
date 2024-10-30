@@ -1,5 +1,5 @@
 /* Importação de paleta de cores e fontes */
-/*@import url(./variables.css);*/
+@import url(./variables.css);
 @import url(./fonts/);
 
 * {
