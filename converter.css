@@ -15,6 +15,9 @@ body {
     font-family: var(--title); /* Fonte principal definida */
     color: var(--corButton); /* Cor principal do texto */
 }
+h1{
+    color: red;
+}
 
 p {
     /* Define fonte específica para parágrafos */
