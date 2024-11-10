@@ -1,3 +1,4 @@
+Segunda versão com consumo de api: [Conversor API](https://github.com/ESChrystian/Simple_Converter_API)
 # :dollar: Conversor de Moedas
 Projeto desenvolvido como atividade avaliativa em trio para a disciplina de Programação Web. O objetivo foi criar uma aplicação web simples que permita converter valores entre diferentes moedas (Real, Euro, Dólar Americano e Libra Esterlina). Este projeto foi desenvolvido com o apoio do  [Leonardo Santiago Sidon da Rocha](https://github.com/LeonardoRochaMarista/), que acompanhou e auxiliou o grupo no processo.
 
